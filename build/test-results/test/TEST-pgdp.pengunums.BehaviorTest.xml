@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pgdp.pengunums.BehaviorTest" tests="37" skipped="2" failures="0" errors="0" timestamp="2023-11-21T19:04:35" hostname="CHRISBOOK" time="1.924">
+  <properties/>
+  <testcase name="[1] Testing penguNumPositive(0)" classname="pgdp.pengunums.BehaviorTest" time="0.124"/>
+  <testcase name="[2] Testing penguNumPositive(1)" classname="pgdp.pengunums.BehaviorTest" time="0.023"/>
+  <testcase name="[3] Testing penguNumPositive(2)" classname="pgdp.pengunums.BehaviorTest" time="0.022"/>
+  <testcase name="Test Summary - penguNumPositive - Base" classname="pgdp.pengunums.BehaviorTest" time="0.033"/>
+  <testcase name="[1] Testing penguNumPositive(17)" classname="pgdp.pengunums.BehaviorTest" time="0.025"/>
+  <testcase name="[2] Testing penguNumPositive(69)" classname="pgdp.pengunums.BehaviorTest" time="0.021"/>
+  <testcase name="[3] Testing penguNumPositive(73)" classname="pgdp.pengunums.BehaviorTest" time="0.023"/>
+  <testcase name="Test Summary - penguNumPositive" classname="pgdp.pengunums.BehaviorTest" time="0.026"/>
+  <testcase name="[1] Testing penguNumNegative(-1)" classname="pgdp.pengunums.BehaviorTest" time="0.04"/>
+  <testcase name="[2] Testing penguNumNegative(-2)" classname="pgdp.pengunums.BehaviorTest" time="0.036"/>
+  <testcase name="[3] Testing penguNumNegative(-3)" classname="pgdp.pengunums.BehaviorTest" time="0.029"/>
+  <testcase name="[4] Testing penguNumNegative(-16)" classname="pgdp.pengunums.BehaviorTest" time="0.025"/>
+  <testcase name="[5] Testing penguNumNegative(-17)" classname="pgdp.pengunums.BehaviorTest" time="0.028"/>
+  <testcase name="[6] Testing penguNumNegative(-69)" classname="pgdp.pengunums.BehaviorTest" time="0.025"/>
+  <testcase name="[7] Testing penguNumNegative(-70)" classname="pgdp.pengunums.BehaviorTest" time="0.026"/>
+  <testcase name="[8] Testing penguNumNegative(-73)" classname="pgdp.pengunums.BehaviorTest" time="0.021"/>
+  <testcase name="Test Summary - penguNumNegative - Base" classname="pgdp.pengunums.BehaviorTest" time="0.026"/>
+  <testcase name="[1] Testing penguNumNegative(-1) - Base" classname="pgdp.pengunums.BehaviorTest" time="0.026"/>
+  <testcase name="[2] Testing penguNumNegative(-2) - Base" classname="pgdp.pengunums.BehaviorTest" time="0.032"/>
+  <testcase name="[3] Testing penguNumNegative(-3) - Base" classname="pgdp.pengunums.BehaviorTest" time="0.031"/>
+  <testcase name="[4] Testing penguNumNegative(-16) - Base" classname="pgdp.pengunums.BehaviorTest" time="0.027"/>
+  <testcase name="[5] Testing penguNumNegative(-17) - Base" classname="pgdp.pengunums.BehaviorTest" time="0.018"/>
+  <testcase name="[6] Testing penguNumNegative(-69) - Base" classname="pgdp.pengunums.BehaviorTest" time="0.027"/>
+  <testcase name="[7] Testing penguNumNegative(-70) - Base" classname="pgdp.pengunums.BehaviorTest" time="0.022"/>
+  <testcase name="[8] Testing penguNumNegative(-73) - Base" classname="pgdp.pengunums.BehaviorTest" time="0.023"/>
+  <testcase name="Test Summary - penguNumNegative" classname="pgdp.pengunums.BehaviorTest" time="0.023"/>
+  <testcase name="[1] Testing penguNum(1)" classname="pgdp.pengunums.BehaviorTest" time="0.021"/>
+  <testcase name="[2] Testing penguNum(3)" classname="pgdp.pengunums.BehaviorTest" time="0.035"/>
+  <testcase name="[3] Testing penguNum(5)" classname="pgdp.pengunums.BehaviorTest" time="0.027"/>
+  <testcase name="[4] Testing penguNum(8)" classname="pgdp.pengunums.BehaviorTest" time="0.03"/>
+  <testcase name="[5] Testing penguNum(-1)" classname="pgdp.pengunums.BehaviorTest" time="0.027"/>
+  <testcase name="[6] Testing penguNum(-2)" classname="pgdp.pengunums.BehaviorTest" time="0.022"/>
+  <testcase name="[7] Testing penguNum(-3)" classname="pgdp.pengunums.BehaviorTest" time="0.025"/>
+  <testcase name="[8] Testing penguNum(-8)" classname="pgdp.pengunums.BehaviorTest" time="0.022"/>
+  <testcase name="Test Summary - penguNum" classname="pgdp.pengunums.BehaviorTest" time="0.018"/>
+  <testcase name="[1] Testing penguNumIndex(0)" classname="pgdp.pengunums.BehaviorTest" time="0.083">
+    <skipped/>
+  </testcase>
+  <testcase name="testPenguNumIndexPositive(long, long)" classname="pgdp.pengunums.BehaviorTest" time="0.11">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+NOTICE: The warning above is expected and the issue is already known.
+        Visit https://github.com/ls1intum/Ares/discussions/113 for more details.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-1,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-1,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumPositiveBase(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-2,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-2,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-3,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-3,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumPositiveBase(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-4,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-4,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-5,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-5,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumPositiveBase(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-6,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-6,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-7,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-7,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumPositiveBaseSummary()], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-8,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-8,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-9,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-9,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumPositive(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-10,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-10,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-11,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-11,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumPositive(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-12,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-12,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-13,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-13,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumPositive(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-14,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-14,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-15,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-15,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumPositiveSummary()], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-16,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-16,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-17,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-17,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegativeBase(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-18,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-18,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-19,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-19,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegativeBase(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-20,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-20,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-21,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-21,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegativeBase(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-22,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-22,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-23,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-23,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegativeBase(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-24,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-24,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-25,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-25,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegativeBase(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-26,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-26,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-27,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-27,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegativeBase(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-28,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-28,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-29,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-29,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegativeBase(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-30,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-30,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-31,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-31,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegativeBase(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-32,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-32,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-33,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-33,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegativeBaseSummary()], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-34,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-34,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-35,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-35,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegative(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-36,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-36,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-37,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-37,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegative(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-38,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-38,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-39,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-39,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegative(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-40,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-40,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-41,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-41,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegative(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-42,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-42,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-43,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-43,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegative(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-44,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-44,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-45,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-45,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegative(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-46,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-46,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-47,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-47,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegative(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-48,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-48,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-49,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-49,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegative(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-50,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-50,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-51,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-51,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumNegativeSummary()], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-52,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-52,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-53,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-53,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNum(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-54,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-54,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-55,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-55,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNum(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-56,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-56,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-57,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-57,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNum(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-58,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-58,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-59,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-59,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNum(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-60,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-60,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-61,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-61,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNum(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-62,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-62,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-63,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-63,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNum(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-64,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-64,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-65,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-65,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNum(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-66,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-66,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-67,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-67,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNum(int,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-68,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-68,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-69,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-69,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumSummary()], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-70,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-70,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-71,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-71,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[void pgdp.pengunums.BehaviorTest.testPenguNumIndexPositive(long,long)], executionPath=F:\OBJECTION, whitelistedPaths=Optional[[PathRule["../testpgdp2324*b1c**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-72,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-72,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+]]></system-err>
+</testsuite>
