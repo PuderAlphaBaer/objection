@@ -29,8 +29,8 @@ project. Follow this description for IntelliJ:
    (e.g., `../repository-solution`).
 5. Inside the `dependencies`-block in the `build.gradle` inside the Test-Project,
    uncomment one of the lines:
-   `testImplementation(':Kreise')` or
-   `testImplementation(':Kreise-Solution')`
+   `testImplementation(':Penguin-Numbers')` or
+   `testImplementation(':Penguin-Numbers-Solution')`
    depending on which project you want to use the source files for executing the
    test cases.
 6. Change the `assignmentSrcDir` variable in `build.gradle` to the corresponding

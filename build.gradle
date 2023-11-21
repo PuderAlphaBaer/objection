@@ -16,8 +16,8 @@ dependencies {
     testImplementation 'de.tum.in.ase:artemis-java-test-sandbox:1.13.0'
     implementation 'org.apache.commons:commons-lang3:3.13.0'
 
-    // testImplementation(':Kreise')
-    // testImplementation(':Kreise-Solution')
+    // testImplementation(':Penguin-Numbers')
+    // testImplementation(':Penguin-Numbers-Solution')
 }
 
 def assignmentSrcDir = "assignment/src"
@@ -63,7 +63,8 @@ def forbiddenPackageFolders = [ //(2)
                                 "$studentOutputDir/org/junit/",
                                 "$studentOutputDir/org/opentest4j/",
                                 "$studentOutputDir/sun/",
-                                "$studentOutputDir/worker/org/gradle/"
+                                "$studentOutputDir/worker/org/gradle/",
+                                "$studentOutputDir/net/bytebuddy/",
 ]
 test {
     doFirst { //(1)
